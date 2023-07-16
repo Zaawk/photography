@@ -6,7 +6,7 @@ body { background: #eee; }
 .gallery {
   /* (B1) GRID LAYOUT - 3 IMAGES PER ROW */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
 
   /* (B2) OPTIONAL WIDTH RESTRICT */
@@ -35,14 +35,14 @@ body { background: #eee; }
 /* (D) ON SMALL SCREENS - 2 IMAGES PER ROW */
 @media only screen and (max-width: 600px) {
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 /* (E) OPTIONAL ZOOM ON HOVER */
 .gallery img:hover {
   z-index: 9;
-  transform: scale(1.3);
+  transform: scale(1.1);
   /* linear | ease | ease-in | ease-out | ease-in-out */
   transition: transform ease 0.5s;
 }
