@@ -10,7 +10,7 @@ body { background: #eee; }
   grid-gap: 20px;
 
   /* (B2) OPTIONAL WIDTH RESTRICT */
-  max-width: 1000px;
+  max-width: 1800px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -42,7 +42,7 @@ body { background: #eee; }
 /* (E) OPTIONAL ZOOM ON HOVER */
 .gallery img:hover {
   z-index: 9;
-  transform: scale(1.1);
+  transform: scale(1.05);
   /* linear | ease | ease-in | ease-out | ease-in-out */
   transition: transform ease 0.5s;
 }
