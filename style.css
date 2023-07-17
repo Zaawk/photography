@@ -11,7 +11,7 @@ body { background: #eee; }
 
   /* (B2) OPTIONAL WIDTH RESTRICT */
   max-width: 1800px;
-  margin: 10% auto;
+  margin: 50px;
   overflow: hidden;
 }
 
