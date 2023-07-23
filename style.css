@@ -44,7 +44,7 @@ body { background: #808080;
 .gallery img {
   /* (C1) DIMENSION */
   width: 100%;
-  height: 100%; /* optional */
+  /*height: 100%;  optional */
   padding: 0px;
 
   /* (C2) COLORS */
