@@ -46,7 +46,8 @@ body {
 /* (C) GALLERY IMAGES */
 .gallery img {
   /* (C1) DIMENSION */
-  width: 100%;
+  width: auto;
+  height: 1fr;
   padding: 0px;
   object-fit: contain;
 
