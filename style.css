@@ -24,7 +24,6 @@ body {
   /* (B1) GRID LAYOUT - 3 IMAGES PER ROW */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
   grid-gap: 5px;
 /*  border: 3px solid #73AD21;*/
 
@@ -48,7 +47,7 @@ body {
 .gallery img {
   /* (C1) DIMENSION */
   width: 100%;
-  /*height: 100%;  optional */
+  height: 100%;  optional
   padding: 0px;
 
   /* (C2) COLORS */
@@ -65,21 +64,18 @@ body {
 @media only screen and (max-width: 1800px) {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, auto)
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(10, auto)
   }
 }
 
 @media only screen and (max-width: 600px) {
   .gallery {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2-, auto)
   }
 }
 
