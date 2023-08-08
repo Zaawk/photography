@@ -1,9 +1,9 @@
 /* (A) WHOLE PAGE */
 * { box-sizing: border-box; }
 body {
-  background-image: url("images/moon.jpg");
+  /*background-image: url("images/moon.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover;*/
   background-color: #808080;
 }
 
