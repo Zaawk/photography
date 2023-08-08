@@ -49,6 +49,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 0px;
+  object-fit: contain;
 
   /* (C2) COLORS */
   /*border: 1px solid #ddd;
