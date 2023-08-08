@@ -46,10 +46,9 @@ body {
 /* (C) GALLERY IMAGES */
 .gallery img {
   /* (C1) DIMENSION */
-  width: auto;
-  height: 100%;
+  aspect-ratio: 3/2;
+  width: 100%;
   padding: 0px;
-  object-fit: contain;
 
   /* (C2) COLORS */
   /*border: 1px solid #ddd;
